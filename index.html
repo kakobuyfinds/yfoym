@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#211b35">
+  <title>OKEYHAUL spreadsheet | Produktlinks, Größen und QC</title>
+  <meta name="description" content="OKEYHAUL spreadsheet auf Deutsch: zehn Kategorien für Schuhe, Kleidung und Accessoires. Produktlinks, Größen, QC-Fotos und Versandkosten gezielt prüfen.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="OKEYHAUL spreadsheet | Produktlinks, Größen und QC">
+  <meta property="og:description" content="Zehn Produktkategorien und ein Leitfaden für Händlerangebote, Größenwahl, Qualitätsfotos und Paketversand.">
+  <meta property="og:image" content="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto,q_auto,w_640/927d3fef-0657-4b82-8b3a-b34f07ffdd28/AIR%2BZOOM%2BPEGASUS%2B41.png">
+  <meta property="og:image:alt" content="Neongelber Nike Pegasus 41 mit schwarzem Swoosh in der Seitenansicht">
+  <!-- Bing lieferte für die exakte Suchanfrage keine Treffer. Die Themenauswahl stützt sich auf zehn anderweitig gefundene Websites: okey-haul.com, okeyhaul.net, okeyhaullinks.com, kakobuyus.net, okeyhaul.org, yupoo.tips, findhaul.com, okeyhaul.shop, kakobuynike.com und repgalaxy.tips. -->
+  <style>
+    :root{color-scheme:light;--ink:#211b35;--paper:#f5f2fa;--white:#fff;--line:#d9d0e7;--muted:#544b65;--lime:#d9fb80}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.58 system-ui,sans-serif}
+    h1,h2,h3,p,figure{margin:0}
+    h1,h2,h3{line-height:1.12}
+    h1{font-size:clamp(2.65rem,7vw,6.2rem);letter-spacing:-.055em;overflow-wrap:anywhere}
+    h1 span{display:block;color:var(--lime)}
+    h2{font-size:clamp(1.65rem,4vw,2.65rem);letter-spacing:-.035em}
+    h3{font-size:1.22rem}
+    a{color:inherit;text-underline-offset:.2em}
+    :focus-visible{outline:3px solid #9465d1;outline-offset:4px}
+    .wrap{width:min(74rem,calc(100% - 2rem));margin-inline:auto}
+    .dark{background:var(--ink);color:var(--white)}
+    .mast{border-bottom:1px solid #514666}
+    .mast .wrap,.foot .wrap{display:flex;align-items:center;justify-content:space-between;gap:.5rem 1rem;flex-wrap:wrap;padding-block:.85rem}
+    .brand{font-weight:800}
+    .tag{font-size:.76rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+    .hero{display:grid;grid-template-columns:1.35fr 1fr;align-items:center;gap:clamp(1rem,4vw,3rem);padding-block:clamp(1.5rem,4vw,3.5rem)}
+    .hero h1{margin-block:.35rem .75rem}
+    .hero p:not(.tag){max-width:52ch;color:#eee8f6}
+    .hero figure{background:#322945}
+    .hero img{aspect-ratio:16/10;object-fit:cover;object-position:center 57%}
+    img{display:block;width:100%;height:auto;background:#f3f3f3}
+    figcaption{padding:.48rem .7rem;font-size:.86rem}
+    .categories{padding-block:1.25rem;border-bottom:1px solid var(--line)}
+    .categories h2{font-size:1.25rem}
+    .categories ul{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.45rem;margin:.75rem 0 0;padding:0}
+    .categories a{display:flex;align-items:center;gap:.45rem;min-height:2.8rem;padding:.35rem .65rem;border:1px solid var(--line);background:var(--white);text-decoration:none;font-weight:700;font-size:.92rem}
+    .categories a:hover,.cta:hover{background:var(--lime);color:var(--ink)}
+    .categories span{font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums}
+    .section{padding-block:clamp(1.6rem,4vw,3.25rem);border-bottom:1px solid var(--line)}
+    .section h2{margin-bottom:.8rem}
+    .rows article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:.45rem 1.5rem;padding:1rem 0;border-top:1px solid var(--line)}
+    .rows article p,.section>p,.qa p{max-width:68ch;color:var(--muted)}
+    .gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.6rem;margin-top:1rem}
+    .gallery figure{border:1px solid var(--line);background:var(--white)}
+    .gallery img{aspect-ratio:1;object-fit:contain}
+    .qa details{padding:.72rem 0;border-top:1px solid var(--line)}
+    summary{cursor:pointer;font-weight:750;padding:.2rem 0}
+    .qa p{margin:.35rem 0 .15rem 1rem}
+    .cta{display:inline-block;margin-top:.8rem;padding:.55rem .85rem;background:var(--ink);color:var(--white);font-weight:750}
+    .foot p{font-size:.85rem}
+    @media(max-width:58rem){.categories ul{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:40rem){.hero,.rows article{grid-template-columns:1fr}.hero img{aspect-ratio:2;object-position:center 65%}.categories ul,.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/yfoym/">
+</head>
+<body itemscope itemtype="https://schema.org/WebPage">
+  <meta itemprop="inLanguage" content="de">
+  <header class="mast dark">
+    <div class="wrap">
+      <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+      <span class="tag">Unabhängiger Einkaufsleitfaden</span>
+    </div>
+  </header>
+  <main>
+    <section class="dark" aria-labelledby="titel">
+      <div class="wrap hero">
+        <div>
+          <p class="tag">Von der Merkliste zur Kaufentscheidung</p>
+          <h1 id="titel" itemprop="name">OKEYHAUL <span>spreadsheet</span></h1>
+          <p itemprop="description">Ein OKEYHAUL spreadsheet bündelt Produktverweise nach Kategorien. Wähle zuerst eine Warengruppe und prüfe dann im Händlerangebot, ob Modell, Größe und Farbe zu deiner Auswahl passen.</p>
+        </div>
+        <figure>
+          <img src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto,q_auto,w_640/927d3fef-0657-4b82-8b3a-b34f07ffdd28/AIR%2BZOOM%2BPEGASUS%2B41.png" width="1280" height="1280" loading="eager" fetchpriority="high" alt="Neongelber Nike Pegasus 41 mit schwarzem Swoosh in der Seitenansicht">
+          <figcaption>Nike Pegasus 41 · Bildbeispiel für ein klar erkennbares Farbmodell</figcaption>
+        </figure>
+      </div>
+    </section>
+    <nav class="wrap categories" aria-labelledby="kategorien">
+      <h2 id="kategorien">Zehn Kategorien im Überblick</h2>
+      <ul>
+        <li><a href="https://hipobuyfind.com/category-911-Shoes.html"><span aria-hidden="true">01</span> Schuhe</a></li>
+        <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html"><span aria-hidden="true">02</span> Hoodies und Pullover</a></li>
+        <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html"><span aria-hidden="true">03</span> T-Shirts</a></li>
+        <li><a href="https://hipobuyfind.com/category-914-Jackets.html"><span aria-hidden="true">04</span> Jacken</a></li>
+        <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html"><span aria-hidden="true">05</span> Hosen und Shorts</a></li>
+        <li><a href="https://hipobuyfind.com/category-916-Headwear.html"><span aria-hidden="true">06</span> Caps und Mützen</a></li>
+        <li><a href="https://hipobuyfind.com/category-917-Sets.html"><span aria-hidden="true">07</span> Bekleidungssets</a></li>
+        <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html"><span aria-hidden="true">08</span> Unterwäsche</a></li>
+        <li><a href="https://hipobuyfind.com/category-919-Jersey.html"><span aria-hidden="true">09</span> Trikots</a></li>
+        <li><a href="https://hipobuyfind.com/category-920-Accessories.html"><span aria-hidden="true">10</span> Accessoires</a></li>
+      </ul>
+    </nav>
+    <section class="wrap section rows" aria-labelledby="leitfaden">
+      <h2 id="leitfaden">Vier Prüfungen vor der Bestellung</h2>
+      <article>
+        <h3>Produktlinks und Varianten abgleichen</h3>
+        <p>Ein Vorschaubild kann mehrere Farbvarianten zeigen. Öffne den ursprünglichen Produktlink auf Weidian, Taobao oder 1688 und vergleiche Modellnummer, Farbcode und ausgewählte Größe mit dem Angebot. Prüfe den Lagerbestand für genau diese Variante und speichere die Händlerseite mit deinem Prüfdatum. Ist der Link abgelaufen, suche anhand der Modellnummer nach einem neuen Angebot.</p>
+      </article>
+      <article>
+        <h3>Schuhgröße und Kleidung nachmessen</h3>
+        <p>Miss die Fußlänge in Zentimetern und nutze die Größentabelle des jeweiligen Angebots. Bei einem Hoodie helfen Brustweite, Rückenlänge und Ärmellänge. Miss dafür einen passenden Pullover flach aus. Bei Hosen erleichtern Bundweite und Innenbeinlänge den Vergleich. Prüfe bei einem Set, ob Oberteil und Hose getrennt ausgewählt werden können.</p>
+      </article>
+      <article>
+        <h3>QC-Fotos dem Artikel zuordnen</h3>
+        <p>QC steht für Qualitätskontrolle. Wenn Lagerfotos zu deiner Bestellung vorliegen, prüfe zuerst Größenetikett, Farbe und Modell. Vergleiche bei Sneakern beide Seiten, die Sohlen und die Nähte. Achte bei Trikots auf die Position des Aufdrucks und bei Schmuck auf den Verschluss. Fotos aus früheren Bestellungen dienen als Vergleich. Die Echtheit lässt sich anhand solcher Bilder allein nicht bestätigen.</p>
+      </article>
+      <article>
+        <h3>Versandkosten für Deutschland kalkulieren</h3>
+        <p>Erfasse Warenpreis, Inlandsversand in China und mögliche Zahlungsgebühren getrennt. Für den internationalen Versand sind Paketmaße, tatsächliches Gewicht und das vom Dienst berechnete Volumengewicht relevant. Vergleiche bei Schuhen gegebenenfalls die Versandoptionen mit und ohne Schuhkarton. Prüfe für das konkrete Zielland auch mögliche Einfuhrabgaben und Zustellgebühren.</p>
+      </article>
+    </section>
+    <section class="wrap section" aria-labelledby="bilder">
+      <h2 id="bilder">Worauf es im Produktfoto ankommt</h2>
+      <p>Die Bilder zeigen Beispiele für Form, Muster und Verschlüsse. Bestand und konkrete Ausführung stehen im jeweiligen Händlerangebot.</p>
+      <div class="gallery">
+        <figure>
+          <img src="https://nz.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-trainer-sneaker--BL9U6PMI01_PM1_Side%20view.png?hei=480&amp;wid=480" width="480" height="480" loading="lazy" decoding="async" alt="Weißer Louis Vuitton LV Trainer mit mehrteiliger Sohle im Seitenprofil">
+          <figcaption>Louis Vuitton · Sohlenprofil und Lederpartien</figcaption>
+        </figure>
+        <figure>
+          <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="640" loading="lazy" decoding="async" alt="Beige Gucci-Cap mit braunem GG-Muster und gebogenem Schirm">
+          <figcaption>Gucci · Schirmform und Verlauf des Musters</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.christiandior.com/is/image/diorprod/513J626A0978C540_E01-1?%24default_GH%24=&amp;crop=414%2C163%2C1156%2C1674&amp;hei=608&amp;wid=420" width="420" height="608" loading="lazy" decoding="async" alt="Dunkelblauer Dior-Hoodie mit Kordelzug und Kängurutasche in der Vorderansicht">
+          <figcaption>Dior · Taschenform und Sitz der Bündchen</figcaption>
+        </figure>
+        <figure>
+          <img src="https://cdn.theluxurycloset.com/uploads/optimize/products/750x750/luxury-women-hermes-used-accessories-p56505-001.jpg" width="750" height="750" loading="lazy" decoding="async" alt="Hermès-Clic-H-Armreif mit orangefarbener Emaille und goldfarbenem H-Verschluss">
+          <figcaption>Hermès · Emaille und H-Verschluss</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="wrap section qa" aria-labelledby="fragen" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 id="fragen" itemprop="name">Häufige Fragen</h2>
+      <meta itemprop="inLanguage" content="de">
+      <details open itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Kann ich direkt im OKEYHAUL spreadsheet bestellen?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Die Übersicht dient der Recherche. Die Bestellung erfolgt beim jeweiligen Händler oder über den gewählten Einkaufsdienst. Prüfe dort vor dem Bezahlen die ausgewählte Variante und die Gesamtkosten.</p>
+        </div>
+      </details>
+      <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Wie finde ich meine Größe bei einem Sneaker?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Miss beide Füße in Zentimetern und vergleiche die Länge des größeren Fußes mit der Tabelle für das konkrete Modell. Kläre bei der Tabelle, ob sie Fußlänge oder Innenlänge angibt.</p>
+        </div>
+      </details>
+      <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Was mache ich, wenn die QC-Fotos unscharf sind?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Bitte, sofern der Dienst das anbietet, um eine Nahaufnahme der fraglichen Stelle oder um ein Foto mit Maßband. Kläre Abweichungen vor der Versandfreigabe.</p>
+        </div>
+      </details>
+      <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Gilt dieselbe Versandkalkulation für Deutschland, Österreich und die Schweiz?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Wähle das tatsächliche Zielland in der Versandabfrage. Verfügbare Versandwege, Abgaben und Zustellgebühren können sich je nach Land und Dienstleister unterscheiden.</p>
+        </div>
+      </details>
+      <a class="cta" href="https://www.hipobuyfind.com">Produktkatalog auf hipobuyfind.com öffnen</a>
+    </section>
+  </main>
+  <footer class="foot dark">
+    <div class="wrap">
+      <p>Unabhängiger Leitfaden. Marken und Händler werden zur Orientierung genannt.</p>
+      <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+    </div>
+  </footer>
+</body>
+</html>
